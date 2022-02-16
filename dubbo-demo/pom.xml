@@ -35,6 +35,7 @@
     </modules>
 
     <dependencyManagement>
+    <!-- 采用maven bom ，可以在父pom中规定好子pom同个group id的版本-->
         <dependencies>
             <dependency>
                 <groupId>com.alibaba</groupId>
